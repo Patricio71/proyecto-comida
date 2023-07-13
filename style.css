@@ -59,13 +59,9 @@ header img {
     color: black;
     background-color: rgba(246, 244, 181, 0.3);
     border-radius: 50%;
-    scale: 1.2;
+}
 
-    
-}
-.header__desayuno a:hover{
-    scale: 1.2;
-}
+  
 
 
 /* ACCESOS */
@@ -75,18 +71,16 @@ header img {
     background-color: rgb(243, 232, 174, 0.6);
     font-size: 25px;
     font-weight: 600;
-    
-    
-
-      
-}
-.accesos ul{
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
+    
+}
+.accesos a{
+    text-decoration: none;
+    color: black;
 }
 
-.accesos ul li:hover {
+.accesos li:hover {
     background: gainsboro;
     scale: 1.2;
 }
@@ -491,13 +485,15 @@ hr {
     font-weight: 600;
 }
 
+
 /* FOOTER */
 footer{
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
-    background-color: #ffd60a;
+    background-color: #333;
+    color: whitesmoke;
     height: 30vh;
 }
 .footer__fuerza__natural{
@@ -508,6 +504,9 @@ footer{
     text-align: center;
     font-weight: 600;
 
+}
+.footer__titulo__salud h2{
+    color: black;
 }
 .footer__titulo__salud h3{
     font-weight: 600;
@@ -553,3 +552,6 @@ footer{
     list-style-type: none;
     margin: 5px 0px 0px 0px;
 }
+
+
+
