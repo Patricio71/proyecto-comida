@@ -19,29 +19,40 @@
 
 <body>
     <!-- HEADER -->
-    <header class="container">
+    <header class="container-fluid">
         <div class="header__titulo">
-            <img src="./imagenes-header/imagen-header-desayuno.jpg" width="100%" height="500px" alt="">
+            <img src="./imagenes-header/scallions-peppers-garlic-shiitake-mushrooms-wooden-plate.jpg" width="100%"
+                height="500px" alt="">
             <a href="">
                 <h1 class="header__h1">Fuerza Natural</h1>
             </a>
         </div>
 
-        <div class="header__desayuno" style="width: 40rem;">
+        <!-- <div class="header__desayuno" style="width: 40rem;">
             <p class="header__desayuno__texto">
-                El Desayuno, Es la comida mas importante del dia.
+                El Desayuno, es la comida mas importante del dia.
             </p>
-            <a href="">Conocelos</a>
-        </div>
+            <a href="">ver mas</a>
+        </div> -->
 
         <div class="accesos">
-            
-                <a href=""><li>Inicio</li></a>
-                <a href=""><li>Nosotros</li></a>
-                <a href=""><li>Contacto</li></a>
-                <a href=""><li>Recetas</li></a>
-                <a href=""><li>Consejos</li></a>
-            
+
+            <a href="">
+                <li>Inicio</li>
+            </a>
+            <a href="">
+                <li>Nosotros</li>
+            </a>
+            <a href="">
+                <li>Contacto</li>
+            </a>
+            <a href="">
+                <li>Recetas</li>
+            </a>
+            <a href="">
+                <li>Consejos</li>
+            </a>
+
 
         </div>
     </header>
@@ -153,15 +164,15 @@
             <hr>
         </section>
 
-        <!-- BANER MERIENDAS SALUDABLES -->
+        <!-- BANER MERIENDAS RAPIDAS Y SALUDABLES -->
         <section class="container">
             <h2 class="meriendas__rapidas-y-saludables">Meriendas rapidas y saludables </h2>
 
-            <div class="meriendas__saludables" style="background-color: #ffd60a;">
+            <div class="meriendas__saludables">
 
                 <div class="merienda__brownie">
 
-                    <img class="" src="./banner/1.jpg" width="200px" height="200px" alt="">
+                    <img src="./banner/1.jpg" width="200px" height="200px" alt="">
 
                     <div class="merienda__titulo">
                         <h3 class="brownie__titulo">Browine</h3>
@@ -187,7 +198,7 @@
                     <div class="merienda__Rolls">
 
                         <img src="./banner/3.jpg" width="200px" height="200px" alt="">
-                        <div class="Rolls__titulo">
+                        <div class="merienda__titulo">
                             <h3 class="Rolls__titulo">Rolls</h3>
                         </div>
                     </div>
@@ -215,20 +226,24 @@
             <h3 class="recetas__faciles">Recetas faciles , sanas y divertidas para tu cocina</h3>
             <div class="videos__recetas">
 
-                <iframe width="300px" height="250px" src="https://www.youtube.com/embed/ga4NBo6JPXU"
-                    title="TORTILLA DE VERDURAS / MANOS A LA OBRA" frameborder="0"
+                <iframe class="video__tortilla" width="300px" height="250px"
+                    src="https://www.youtube.com/embed/ga4NBo6JPXU" title="TORTILLA DE VERDURAS / MANOS A LA OBRA"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
-                <iframe width="300px" height="250px" src="https://www.youtube.com/embed/zn7dcIqhucc"
+                <iframe class="video__brownie" width="300px" height="250px"
+                    src="https://www.youtube.com/embed/zn7dcIqhucc"
                     title="BROWNIE SUPER NUTRITIVO - Cómo me sano - Receta Fácil" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
-                <iframe width="300px" height="250px" src="https://www.youtube.com/embed/4nqX8eECRAE"
-                    title="3 HELADO DE PLÁTANO CON SALSA DE CHOCOLATE" frameborder="0"
+                <iframe class="video__helado" width="300px" height="250px"
+                    src="https://www.youtube.com/embed/4nqX8eECRAE" title="3 HELADO DE PLÁTANO CON SALSA DE CHOCOLATE"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
-                <iframe width="300px" height="250px" src="https://www.youtube.com/embed/gtdbbfVyGQw"
-                    title="PASTEL DE PAPAS Y VERDURAS / MANOS A LA OBRA" frameborder="0"
+                <iframe class="video__patel__papas" width="300px" height="250px"
+                    src="https://www.youtube.com/embed/gtdbbfVyGQw" title="PASTEL DE PAPAS Y VERDURAS / MANOS A LA OBRA"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
@@ -246,10 +261,10 @@
 
             <div class="organizacion__comida">
 
-                <div class="bolsa__comida">
-                    <img src="./imagenes-main/bolsa-comida" width="100%" height="100%" alt="">
+                <div class="despensero__comida">
+                    <img src="./imagenes-main/despensero-desordenado.jpg" width="90%" height="100%" alt="">
                 </div>
-                <div class="bolsa__comida__descripcion" style="width: 50%;">
+                <div class="despensero__comida__descripcion">
                     <h3 class="organizacion__titulo">ORGANIZACIÓN EN LA COCINA</h3>
                     <h4 class="organizacion__subtitulo">Evita el desperdicio de alimentos. 7 Consejos para organizar tu
                         despensa</h4>
@@ -297,45 +312,57 @@
 
 
     <!-- FOOTER -->
-    <footer class="container">
+    <footer class="container-fluid">
+        <section class="footer__grupo">
+            <div class="footer__titulo__salud">
 
-        <div class="footer__titulo__salud">
+                <h2 class="footer__fuerza__natural" style="width: 70%;">Fuerza Natural</h2>
+                <h3>La salud empieza en tu cocina</h3>
+            </div>
 
-            <h2 class="footer__fuerza__natural" style="width: 70%;">Fuerza Natural</h2>
-            <h3>La salud empieza en tu cocina</h3>
-        </div>
+            <div class="secciones">
+                <h2>Secciones</h2>
+                <li>Recetas</li>
+                <li>Consejos</li>
+                <li>Trucos</li>
+            </div>
 
-        <div class="secciones">
-            <h2>Secciones</h2>
-            <li>Recetas</li>
-            <li>Consejos</li>
-            <li>Trucos</li>
-        </div>
+            <div class="contacto">
+                <h2>Contacto</h2>
+                <li>Contacto</li>
+            </div>
 
-        <div class="contacto">
-            <h2>Contacto</h2>
-            <li>Contacto</li>
-        </div>
+            <div class="faqs">
+                <h2>Faqs</h2>
+                <li>Quienes somos</li>
+                <li>Ayuda</li>
+                <li>Ubicanos</li>
+            </div>
 
-        <div class="faqs">
-            <h2>Faqs</h2>
-            <li>Quienes somos</li>
-            <li>Ayuda</li>
-            <li>Ubicanos</li>
-        </div>
+            <div class="redes">
+                <h2>Redes</h2>
+                <li> <img src="./redes/whatsapp.png" width="30px" height="30px" alt="">
+                </li>
+                <li> <img src="./redes/instagram.png" width="30px" height="30px" alt="">
+                </li>
+                <li> <img src="./redes/twitter_logo_icon_218921.png" width="30px" height="30px" alt="">
+                </li>
+                <li> <img src="./redes/facebook.png" width="30px" height="30px" alt="">
+                </li>
+            </div>
 
-        <div class="redes">
-            <h2>Redes</h2>
-            <li> <img src="./redes/whatsapp.png" width="30px" height="30px" alt="">
-            </li>
-            <li> <img src="./redes/instagram.png" width="30px" height="30px" alt="">
-            </li>
-            <li> <img src="./redes/twitter_logo_icon_218921.png" width="30px" height="30px" alt="">
-            </li>
-            <li> <img src="./redes/facebook.png" width="30px" height="30px" alt="">
-            </li>
-        </div>
+            <div class="formulario">
+                <h2>Suscribite</h2>
+                <h5>Ingrese Nombre y Apellido</h5>
+                <input type="name" placeholder="Nombre y Apellido" name="name" id="nombre">
+                <h5>Ingrese Email</h5>
+                <input type="email" placeholder="Ejemplo@ejemplo.com">
+                <h5>Dejanos tu Receta</h5>
+                <textarea name="comentario" id="" cols="10" rows="10"></textarea>
+                <button>Enviar</button>
+            </div>
 
+        </section>
     </footer>
 
 

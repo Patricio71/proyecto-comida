@@ -3,19 +3,14 @@
     padding: 0;
     font-family: 'Ysabeau', sans-serif;
 
-
-
-
-
 }
 
 .container {
     padding: 0;
 }
 
-body{
-    background-image: url(./imagenes-body/imagen-body.jpg)
-}
+
+
 /* HEADER */
 .header__titulo {
     overflow: hidden;
@@ -30,59 +25,57 @@ header img {
 
 .header__h1 {
     color: white;
-    font-size: 50px;
-    box-shadow: 2px 2px 2px 2px rgba(11, 11, 11, 0.6);
+    font-size: 40px;
     position: absolute;
     top: 2%;
+    left: 2%;
     font-weight: 600;
-    background: rgba(0,0,0,0.1);
     width: auto;
-    position: fixed;
-    z-index: 100;
+
 }
 
 .header__desayuno {
     position: absolute;
     top: 20%;
-    left: 25%;
-    box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, 0.6);
+    left: 30%;
     font-size: 45px;
     font-weight: 600;
     color: white;
     text-align: center;
-    background: rgba(0,0,0,0.1);
 
 }
 
 .header__desayuno a {
     text-decoration: none;
-    color: black;
-    background-color: rgba(246, 244, 181, 0.3);
-    border-radius: 50%;
+    font-size: 30px;
+    color: rgb(252, 250, 250);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30%;
+
 }
 
-  
+
 
 
 /* ACCESOS */
-.accesos{
+.accesos {
     list-style-type: none;
     margin-top: 10px;
-    background-color: rgb(243, 232, 174, 0.6);
+    background-color: #9c6644;
     font-size: 25px;
     font-weight: 600;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+
 }
-.accesos a{
+
+.accesos a {
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
 }
 
 .accesos li:hover {
-    background: gainsboro;
-    scale: 1.2;
+    scale: 1.3;
 }
 
 
@@ -98,7 +91,7 @@ nav {
 }
 
 .nav__imagenes {
-    background-color: #ffd60a;
+    background-color: #9c6644;
     justify-content: space-around;
     display: flex;
     margin-top: 20px;
@@ -110,12 +103,15 @@ nav {
     border-radius: 100%;
     border: solid 5px white;
     -webkit-box-shadow: 5px 5px 5px black;
+}
 
+.nav__imagenes img:hover {
+    scale: 1.1;
 }
 
 .nav__imagenes a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .nav__footer {
@@ -160,16 +156,17 @@ hr {
     font-size: 40px;
     margin-top: 20px;
     text-align: center;
-    
-    
+
+
 }
 
 .meriendas__saludables {
-    align-content: center;
     margin-top: 40px;
-    height: 45vh;
     display: flex;
+    height: 100%;
     justify-content: space-around;
+    background-color: #9c6644;
+
 }
 
 .merienda__brownie {
@@ -177,7 +174,6 @@ hr {
 }
 
 .merienda__brownie img {
-    margin-top: 50px;
     border: solid 5px white;
     -webkit-box-shadow: 5px 5px 5px black;
     border-radius: 100%;
@@ -221,33 +217,20 @@ hr {
 }
 
 .merienda__brownie:hover .brownie__titulo {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
-    color: black;
+    color: whitesmoke;
 }
 
 
 /* CUPCAKES */
-.meriendas__rapidas-y-saludables {
-    font-size: 40px;
-    margin-top: 20px;
-    text-align: center;
-}
 
-.meriendas__saludables {
-    margin-top: 40px;
-    height: 45vh;
-    display: flex;
-    background-color: gainsboro;
-    justify-content: space-around;
-}
 
 .merienda__cupcakes {
     position: relative;
 }
 
 .merienda__cupcakes img {
-    margin-top: 50px;
     border: solid 5px white;
     -webkit-box-shadow: 5px 5px 5px black;
     border-radius: 100%;
@@ -290,34 +273,20 @@ hr {
 }
 
 .merienda__cupcakes:hover .cupcakes__titulo {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
-    color: black;
+    color: whitesmoke;
 }
 
 
 
 /* ROLLS */
-.meriendas__rapidas-y-saludables {
-    font-size: 40px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.meriendas__saludables {
-    margin-top: 40px;
-    height: 45vh;
-    display: flex;
-    background-color: gainsboro;
-    justify-content: space-around;
-}
 
 .merienda__Rolls {
     position: relative;
 }
 
 .merienda__Rolls img {
-    margin-top: 50px;
     border: solid 5px white;
     -webkit-box-shadow: 5px 5px 5px black;
     border-radius: 100%;
@@ -359,32 +328,20 @@ hr {
 }
 
 .merienda__Rolls:hover .Rolls__titulo {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
+    color: whitesmoke;
+
 }
 
 
 /* PANCAKES */
-.meriendas__rapidas-y-saludables {
-    font-size: 40px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.meriendas__saludables {
-    margin-top: 40px;
-    height: 45vh;
-    display: flex;
-    background-color: gainsboro;
-    justify-content: space-around;
-}
 
 .merienda__pancakes {
     position: relative;
 }
 
 .merienda__pancakes img {
-    margin-top: 50px;
     border: solid 5px white;
     -webkit-box-shadow: 5px 5px 5px black;
     border-radius: 100%;
@@ -428,25 +385,28 @@ hr {
 }
 
 .merienda__pancakes:hover .pancakes__titulo {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
-    color: black;
+    color: whitesmoke;
+
 }
 
 /* Recetas faciles , sanas y divertidas para tu cocina */
-.videos__recetas{
+.videos__recetas {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
-.recetas__faciles{
+
+.recetas__faciles {
     margin-top: 40px;
     text-align: center;
     font-size: 40px;
 }
+
 /* COCINA ORGANIZADA */
 
-.tu__cocina__organizada{
+.tu__cocina__organizada {
     margin-top: 40px;
     text-align: center;
     font-size: 40px;
@@ -454,49 +414,57 @@ hr {
 
 }
 
-.organizacion__comida{
+.organizacion__comida {
     margin-top: 40px;
     display: flex;
-
+    justify-content: center;
 }
-.organizacion__titulo{
+
+.organizacion__titulo {
     text-align: center;
     font-weight: 600;
 
 }
-.organizacion__subtitulo{
+
+.organizacion__subtitulo {
     text-align: center;
-    margin-top:20px ;
+    margin-top: 20px;
     font-weight: 600;
 
 }
-.organizacion__parrafo{
+
+.organizacion__parrafo {
     margin-top: 20px;
     font-weight: 600;
     margin-left: 10px;
 }
-.porque_es_importante_organzar_la_cocina{
+
+.porque_es_importante_organzar_la_cocina {
     text-align: center;
     margin-top: 20px;
     font-weight: 600;
 }
-.que-factores-hay-que-tener-en-cuenta-para-la-organizacion{
+
+.que-factores-hay-que-tener-en-cuenta-para-la-organizacion {
     text-align: center;
     font-weight: 600;
 }
 
 
 /* FOOTER */
-footer{
-    text-align: center;
+footer {
+    margin-top: 40px;
+}
+
+.footer__grupo {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
+    text-align: center;
     background-color: #333;
     color: whitesmoke;
-    height: 30vh;
 }
-.footer__fuerza__natural{
+
+.footer__fuerza__natural {
     margin-top: 15%;
     font-size: 30px;
     background-color: white;
@@ -505,53 +473,172 @@ footer{
     font-weight: 600;
 
 }
-.footer__titulo__salud h2{
+
+.footer__titulo__salud h2 {
     color: black;
 }
-.footer__titulo__salud h3{
+
+.footer__titulo__salud h3 {
     font-weight: 600;
     text-align: center;
 }
-.secciones h2{
-    font-size: 40px;
+
+.secciones h2 {
+    font-size: 30px;
     font-weight: 600;
 
-}
-.secciones li{
-    list-style-type: none;
-    font-size: 20px;
-    font-weight: 600;
 
 }
-.contacto h2{
-    font-size: 40px;
-    font-weight: 600;
-}
-.contacto li{
+
+.secciones li {
     list-style-type: none;
     font-size: 20px;
+
+}
+
+.contacto h2 {
+    font-size: 30px;
     font-weight: 600;
 }
-.faqs h2{
-    font-size: 40px;
-    font-weight: 600;
-}
-.faqs li{
+
+.contacto li {
     list-style-type: none;
     font-size: 20px;
+}
+
+.faqs h2 {
+    font-size: 30px;
     font-weight: 600;
 }
-.redes h2{
-    font-size: 40px;
-    font-weight: 600
+
+.faqs li {
+    list-style-type: none;
+    font-size: 20px;
 }
-.redes img{
+
+.redes h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.redes img {
     flex-direction: column;
 }
-.redes li{
+
+.redes li {
     list-style-type: none;
     margin: 5px 0px 0px 0px;
 }
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
 
+.formulario h2 {
+    font-size: 30px;
+    font-weight: 600;
 
+}
+
+.formulario input {
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+}
+
+.formulario textarea {
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+.formulario input:hover {
+    border: solid 4px rgb(243, 243, 7);
+    scale: 1.1;
+}
+
+.formulario textarea:hover {
+    border: solid 4px rgb(243, 243, 7);
+    scale: 1.1;
+}
+
+.formulario button {
+    background-color: rgb(243, 243, 7);
+    font-size: 20px;
+}
+
+.formulario button:hover {
+    border: solid 4px rgb(243, 243, 7);
+    scale: 1.1;
+}
+
+/* MOBILE */
+
+@media (min-width: 399px) and (max-width:900px) {
+
+    /* HEADER */
+    .header__desayuno {
+        flex-wrap: wrap;
+        align-items: center;
+        left: -20%;
+    }
+    .accesos{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .nav__imagenes{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .recetas__grupo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .meriendas__saludables{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    /* solo a una iamgen y se despegaron todas, chequear */
+    .merienda__brownie{
+        margin-bottom: 20px;
+    }
+    .merienda__cupcakes{
+        margin-bottom: 20px;
+
+    }
+    .merienda__Rolls{
+        margin-bottom: 20px;
+
+    }
+    .videos__recetas{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .video__tortilla{
+        margin-bottom: 20px;
+    }
+    .video__brownie{
+        margin-bottom: 20px;
+    }
+    .video__helado{
+        margin-bottom: 20px;
+    }
+    .organizacion__comida{
+        flex-direction: column;
+        align-content: center;
+    }
+    .despensero__comida{
+      margin-left: 30px;
+      margin-bottom: 20px;
+    }
+    .footer__grupo{
+        flex-direction: column;
+    }
+    .footer__titulo__salud h2{
+        margin-left: 15%;
+    }
+    }
+   
